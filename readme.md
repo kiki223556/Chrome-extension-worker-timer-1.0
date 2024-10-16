@@ -11,7 +11,7 @@
 - 方法1：點選頁面上 Code 按鈕，下載壓縮檔(Download ZIP)，並執行解壓縮。
 - 方法2：使用以下指令下載專案。
 ```
-git clone https://github.com/nuxt/nuxt.git
+git clone https://github.com/kiki223556/Chrome-extension-worker-timer-1.0.git
 ```
 
 ---
