@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Time to Say Goobye</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Time to Say Goodbye</h1>
+    <div class="time-block">
+      <h3>Arrive</h3>
+      <input type="time" id="startTime">
+    </div>
+    <div class="time-block">
+      <h3>Leave</h3>
+      <input type="time" id="endTime" readonly>
+    </div>
+    <div class="time-block">
+      <h3>Leave hours</h3>
+      <input type="number" id="leaveHours" min="0" step="0.5" value="0">
+    </div>
+    <h3 id="countdown"></h3>
+    <h3 id="warning">You have started working overtime!</h3>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

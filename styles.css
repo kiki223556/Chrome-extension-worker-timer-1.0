@@ -1,0 +1,40 @@
+.container {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  background-color: #ddd;
+}
+
+#countdown {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+#warning {
+  color: #f17171;
+}
+
+.time-block {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.time-block h3 {
+  display: flex;
+  width: 100px;
+  justify-content: end;
+}
+
+.time-block input {
+  width: 150px;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+#search-icon {
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "上下班時間提醒小工具",
+  "version": "1.0",
+  "description": "紀錄上班時間，並在下班前貼心的提醒您。",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
